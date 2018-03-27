@@ -1,0 +1,33 @@
+{
+  "name": "crypto-secure-shuffle",
+  "version": "1.0.0",
+  "description":
+    "Cryptographically secure shuffle using the Durstenfeld algorithm with a CSPRNG.",
+  "homepage": "https://github.com/dhessler/crypto-secure-shuffle",
+  "author": "David Hessler <dhessler.oss@gmail.com>",
+  "main": "index.js",
+  "dependencies": {
+    "random-number-csprng": "1.0.2"
+  },
+  "engines": { "node": ">=6" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhessler/crypto-secure-shuffle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhessler/crypto-secure-shuffle/issues"
+  },
+  "keywords": [
+    "secure",
+    "crypto",
+    "shuffle",
+    "random",
+    "randomize",
+    "array",
+    "sort",
+    "csprng",
+    "fisher-yates",
+    "durstenfeld"
+  ],
+  "license": "ISC"
+}
