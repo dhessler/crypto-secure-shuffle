@@ -1,5 +1,7 @@
 # Crypto Secure Shuffle
 
+[![Build Status](https://travis-ci.org/dhessler/crypto-secure-shuffle.svg?branch=master)](https://travis-ci.org/dhessler/crypto-secure-shuffle)
+
 Cryptographically secure shuffle using the Durstenfeld algorithm with a CSPRNG.
 
 # Install
