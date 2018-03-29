@@ -9,7 +9,7 @@
   "scripts": {
     "build": "./node_modules/.bin/tsc --pretty",
     "test": "./node_modules/.bin/mocha -r ts-node/register test/**/*.ts",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "random-number-csprng": "1.0.2"
