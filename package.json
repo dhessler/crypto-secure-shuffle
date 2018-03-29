@@ -1,19 +1,25 @@
 {
   "name": "crypto-secure-shuffle",
-  "version": "1.0.1",
-  "description":
-    "Cryptographically secure shuffle using the Durstenfeld algorithm with a CSPRNG.",
+  "version": "2.0.0",
+  "description": "Cryptographically secure shuffle using the Durstenfeld algorithm with a CSPRNG.",
   "homepage": "https://github.com/dhessler/crypto-secure-shuffle",
   "author": "David Hessler <dhessler.oss@gmail.com>",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "ava --verbose test/*.js"
+    "build": "./node_modules/.bin/tsc --pretty",
+    "test": "./node_modules/.bin/mocha -r ts-node/register test/**/*.ts",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "random-number-csprng": "1.0.2"
   },
   "devDependencies": {
-    "ava": "0.25.0"
+    "@types/mocha": "5.0.0",
+    "@types/node": "9.6.1",
+    "mocha": "5.0.5",
+    "ts-node": "5.0.1",
+    "typescript": "2.8.1"
   },
   "engines": {
     "node": ">=6"
