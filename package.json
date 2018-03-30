@@ -24,10 +24,13 @@
     ],
     "reporter": [
       "text-summary"
-    ]
+    ],
+    "sourceMap": true,
+    "instrument": true
   },
   "dependencies": {
-    "random-number-csprng": "1.0.2"
+    "random-number-csprng": "1.0.2",
+    "source-map-support": "0.5.4"
   },
   "devDependencies": {
     "@types/mocha": "5.0.0",

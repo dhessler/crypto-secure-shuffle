@@ -1,3 +1,5 @@
+import "source-map-support/register";
+
 const secureRandomInRange = require("random-number-csprng");
 
 /**
