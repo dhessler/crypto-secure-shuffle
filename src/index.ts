@@ -1,11 +1,12 @@
 import "source-map-support/register";
 
+// tslint:disable-next-line:no-var-requires
 const secureRandomInRange = require("random-number-csprng");
 
 /**
  * Shuffles the provided array using the Durstenfeld algorithm with a
-  cryptographically secure pseudo random number generator.
-  This produces an unbiased random permutation of the original array.
+ * cryptographically secure pseudo random number generator.
+ * This produces an unbiased random permutation of the original array.
  *
  * Note: This method mutates the original array.
  * @param array The array to shuffle.
@@ -34,6 +35,7 @@ async function secureShuffle<T>(array: T[]) {
 
 export = secureShuffle;
 
+// tslint:disable-next-line:no-namespace
 namespace secureShuffle {
 
 }
