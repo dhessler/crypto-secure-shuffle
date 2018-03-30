@@ -1,6 +1,8 @@
 # Crypto Secure Shuffle
 
-[![Build Status](https://travis-ci.org/dhessler/crypto-secure-shuffle.svg?branch=master)](https://travis-ci.org/dhessler/crypto-secure-shuffle)[![Coverage Status](https://coveralls.io/repos/github/dhessler/crypto-secure-shuffle/badge.svg?branch=master)](https://coveralls.io/github/dhessler/crypto-secure-shuffle?branch=master)
+[![Build Status](https://travis-ci.org/dhessler/crypto-secure-shuffle.svg?branch=master)](https://travis-ci.org/dhessler/crypto-secure-shuffle)
+[![Coverage Status](https://coveralls.io/repos/github/dhessler/crypto-secure-shuffle/badge.svg?branch=master)](https://coveralls.io/github/dhessler/crypto-secure-shuffle?branch=master)
+[![Known Vulnerabilities](https://snyk.io/test/github/dhessler/crypto-secure-shuffle/badge.svg?branch=master)](https://snyk.io/test/github/dhessler/crypto-secure-shuffle?branch=master)
 
 Cryptographically secure shuffle using the Durstenfeld algorithm with a CSPRNG.
 
