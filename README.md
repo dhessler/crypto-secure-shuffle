@@ -4,6 +4,8 @@
 
 Cryptographically secure shuffle using the Durstenfeld algorithm with a CSPRNG.
 
+This provides an unbiased algorithm for producing random permutations of a given array.
+
 # Install
 
 ```sh
@@ -12,9 +14,9 @@ $ npm install crypto-secure-shuffle
 
 # Usage
 
-Note the provided array is shuffled in place, and so the original array is mutated.
-Also note that this algorithm is asynchronous, and so returns a promise.
-For convenience, the returned promise resolves to the shuffled array.
+Note the original array is mutated, as it is shuffled in place for efficiency.
+Also note that this method is asynchronous.
+For convenience the returned promise resolves to the shuffled array.
 
 ```js
 const shuffle = require("crypto-secure-shuffle");
