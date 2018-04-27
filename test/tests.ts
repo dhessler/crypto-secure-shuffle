@@ -13,7 +13,7 @@ describe("Tests", () => {
   });
 
   it("should handle empty array", async () => {
-    const arr = [];
+    const arr: any[] = [];
     const result = await shuffle(arr);
 
     assert.deepEqual(arr, result);
