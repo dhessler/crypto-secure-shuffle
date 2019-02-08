@@ -1,6 +1,6 @@
 {
   "name": "crypto-secure-shuffle",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Cryptographically secure shuffle using the Durstenfeld algorithm with a CSPRNG.",
   "homepage": "https://github.com/dhessler/crypto-secure-shuffle",
   "author": "David Hessler <dhessler.oss@gmail.com>",
