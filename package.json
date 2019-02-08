@@ -32,19 +32,19 @@
     "instrument": true
   },
   "dependencies": {
-    "random-number-csprng": "1.0.2",
-    "source-map-support": "0.5.5"
+    "random-number-csprng": "^1.0.2",
+    "source-map-support": "^0.5.10"
   },
   "devDependencies": {
-    "@types/mocha": "5.2.0",
-    "@types/node": "9.6.7",
-    "coveralls": "3.0.0",
-    "mocha": "5.1.1",
-    "nyc": "11.7.1",
-    "rimraf": "2.6.2",
-    "ts-node": "6.0.1",
-    "tslint": "5.9.1",
-    "typescript": "2.8.3"
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.23",
+    "coveralls": "^3.0.2",
+    "mocha": "^5.2.0",
+    "nyc": "^13.2.0",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
   },
   "engines": {
     "node": ">=6"
